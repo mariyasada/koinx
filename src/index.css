@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(247, 245, 245);
 }
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+:root {
+  --light-stone: rgb(197, 193, 193);
+  overflow-x: hidden;
+}
+.allcards-container {
+  width: 90vw;
+  gap: 1.4rem;
+  margin-top: 6rem;
+}
+.visibility-div {
+  width: 100%;
+}
+.backward-icon,
+.forward-icon {
+  font-size: 1.5rem;
+  color: gray;
+}
+.gap {
+  gap: 2rem;
+}
+.circle-icon {
+  font-size: medium;
+}
+.navigation-dots-container {
+  display: none;
+  margin-top: 5.4rem;
+  color: rgb(47, 123, 194);
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+.text-left {
+  text-align: left;
+}
+.ml-3 {
+  margin-left: 1rem;
+}
+.crypto-code {
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+@media screen and (max-width: 900px) {
+  .backward-icon {
+    position: absolute;
+    left: 1px;
+  }
+  .forward-icon {
+    position: absolute;
+    right: 1px;
+  }
+  .navigation-dots-container {
+    display: block;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  .allcards-container {
+    margin-top: 8rem;
+  }
 }

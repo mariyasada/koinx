@@ -1,0 +1,58 @@
+.Header-container {
+  justify-content: space-between;
+  padding: 8px;
+  height: 2rem;
+  box-shadow: 3px 3px 4px var(--light-stone);
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+}
+.mrl {
+  margin: 0 6rem;
+}
+.header-icon {
+  font-size: 1.5rem;
+}
+.header-left-logo {
+  gap: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.title {
+  font-size: 1.4rem;
+}
+
+/* media query */
+@media screen and (max-width: 900px) {
+  .Header-container {
+    width: 100%;
+    padding: 1px;
+  }
+  .bar-icon {
+    position: absolute;
+    left: 2rem;
+    font-size: 1.2rem;
+  }
+  .search-icon {
+    display: none;
+  }
+  .symbol {
+    font-size: 1.43rem;
+  }
+  .header-left-logo {
+    width: 100%;
+    font-size: 1.2rem;
+    gap: 3px;
+    text-align: center;
+    margin-left: 6rem;
+  }
+  .title {
+    width: 9rem;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,131 @@
+.filter-chips {
+  width: 77vw;
+  align-items: flex-start;
+}
+
+.cryptoCurr-container {
+  margin-top: 2rem;
+}
+.chips-container {
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+.chip-style {
+  width: fit-content;
+  background-color: rgb(228, 223, 223);
+  border-radius: 5px;
+  padding: 8px;
+}
+.gutter {
+  gap: 3px;
+}
+.gutter-lg {
+  gap: 10px;
+}
+.rows-option {
+  padding: 4px;
+  background-color: rgb(240, 235, 235);
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.list {
+  background-color: white;
+}
+.rows-filter {
+  margin-left: 20rem;
+}
+.table {
+  width: 79vw;
+  font-size: 1.34rem;
+}
+.table-container {
+  background-color: white;
+  width: 100vw;
+}
+.table-heading {
+  padding: 8px;
+  text-align: center;
+  width: fit-content;
+}
+.border-gray {
+  border: 2px solid rgb(226, 223, 223);
+}
+.coin-image {
+  height: 1.4rem;
+  width: 1.4rem;
+  border-radius: 50%;
+}
+td {
+  padding: 4px;
+  text-align: center;
+  max-width: 10rem;
+}
+.table-row-data {
+  font-size: 1.2rem;
+}
+.color-green {
+  color: green;
+  margin-top: 0.3rem;
+}
+.color-red {
+  color: red;
+}
+.cell-data-center {
+  gap: 3px;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  justify-content: flex-start;
+}
+.crypto-symbol {
+  text-transform: uppercase;
+  color: rgb(194, 190, 190);
+  margin-left: 3px;
+}
+.color-gray {
+  color: rgb(170, 167, 167);
+}
+.supply-volume {
+  margin-top: 3px;
+  font-size: 1rem;
+}
+.circulate-supply {
+  margin-bottom: 10px;
+}
+.hidden-modal {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .hidden {
+    display: none;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .chips-container {
+    gap: 5px;
+    margin-left: -2rem;
+    flex-wrap: wrap;
+    padding: 3px;
+  }
+  .chip-style {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .rows-filter {
+    margin-left: 6px;
+    font-size: 16px;
+  }
+  .table {
+    font-size: 1.2rem;
+  }
+  .table-row-data {
+    font-size: 1rem;
+  }
+  .cryptoCurr-container {
+    margin-top: 10px;
+  }
+  .hidden-modal {
+    display: block;
+  }
+}

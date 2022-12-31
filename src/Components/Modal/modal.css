@@ -1,0 +1,63 @@
+.modal-background {
+  background-color: rgba(226, 223, 223, 0.5);
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  z-index: 30;
+}
+.modal-container {
+  height: auto;
+  width: 100vw;
+  background-color: white;
+  padding: 1rem;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border-radius: 10px;
+}
+.coin-list-data-modal {
+  width: 80vw;
+  margin-left: 0rem;
+}
+.coin-data-with-close {
+  font-size: 1.2rem;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.gutter-md {
+  gap: 0.6rem;
+}
+.coin-name {
+  font-size: 1.2rem;
+}
+.content-container {
+  width: 100%;
+  margin: 7px;
+  font-size: 14px;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+.align-left {
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 545;
+}
+.ml-3 {
+  margin-left: 1.5rem;
+}
+.mt-md {
+  margin-top: -2px;
+}
+.content-container .parent-div {
+  text-align: left;
+}
+.span-style {
+  width: 100%;
+  font-size: 13px;
+}
+.mt-lg {
+  margin-top: 10px;
+}
