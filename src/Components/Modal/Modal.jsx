@@ -2,11 +2,7 @@ import React from "react";
 import "../Modal/modal.css";
 import { IoClose } from "react-icons/io5";
 import "../TableList/table.css";
-import {
-  AiFillCaretDown,
-  AiFillCaretUp,
-  AiOutlineArrowDown,
-} from "react-icons/ai";
+import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 
 const Modal = ({ setIsOpen, modalData }) => {
   const {

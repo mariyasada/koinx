@@ -1,5 +1,5 @@
 import axios from "axios";
-import { createContext,useContext, useEffect,useState,useReducer} from "react";
+import { createContext,useContext, useEffect,useState} from "react";
 
 
 const CoinListContext =createContext();
