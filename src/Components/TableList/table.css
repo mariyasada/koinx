@@ -8,7 +8,7 @@
 }
 .chips-container {
   gap: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .chip-style {
   width: fit-content;
@@ -37,7 +37,7 @@
 }
 .table {
   width: 79vw;
-  font-size: 1.34rem;
+  font-size: 1.18rem;
 }
 .table-container {
   background-color: white;
@@ -99,7 +99,7 @@ td {
   .hidden {
     display: none;
   }
-  h1 {
+  h2 {
     font-size: 1rem;
   }
   .chips-container {

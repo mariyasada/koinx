@@ -1,6 +1,6 @@
 .card-container {
   background-color: white;
-  width: 22.4rem;
+  width: 19.7rem;
   height: fit-content;
   padding: 1rem;
   border-radius: 1.5rem;
@@ -8,8 +8,8 @@
   box-shadow: 3px 3px 4px rgb(209, 208, 208);
 }
 .image-container {
-  height: 7rem;
-  width: 7rem;
+  height: 6.8rem;
+  width: 6.8rem;
   display: flex;
   object-fit: contain;
 }
@@ -17,14 +17,16 @@
   height: 7rem;
   width: fit-content;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 .card-title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: gray;
+  margin-top: 10px;
 }
 .card-content {
   margin: -10px 0 0 auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   width: 100%;
   text-align: left;

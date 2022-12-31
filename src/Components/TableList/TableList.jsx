@@ -9,7 +9,7 @@ export const TableList = () => {
   return (
     <div className="cryptoCurr-container flex-center flex-column">
       <div className="filter-chips flex-center flex-column">
-        <h1>Top 100 Cryptocurrencies by Market Cap</h1>
+        <h2>Top 100 Cryptocurrencies by Market Cap</h2>
         <div className="chips-container flex-center">
           {chipsData.map((item) => {
             return (
@@ -22,7 +22,6 @@ export const TableList = () => {
                   <span
                     style={{ color: item === "Cryptocurrencies" && "blue" }}
                   >
-                    {" "}
                     {item}
                   </span>
                 )}
