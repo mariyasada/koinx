@@ -53,11 +53,17 @@ const Table = ({ pagesize }) => {
             <th className="table-heading hidden"></th>
           </tr>
         </thead>
-        <tbody>
-          {isLoading ? (
-            <h3 style={{ width: "30vw" }}>Loading Data...</h3>
-          ) : (
-            paginatedCoins.map((coin, index) => {
+        {isLoading ? (
+          <tbody>
+            <tr>
+              <td>
+                <p>Loading Data...</p>
+              </td>
+            </tr>
+          </tbody>
+        ) : (
+          <tbody>
+            {paginatedCoins.map((coin, index) => {
               return (
                 <tr
                   key={coin.name}
@@ -114,9 +120,9 @@ const Table = ({ pagesize }) => {
                   </td>
                 </tr>
               );
-            })
-          )}
-        </tbody>
+            })}
+          </tbody>
+        )}
       </table>
       {totalPages > 1 ? (
         <div className="paginate-container">
