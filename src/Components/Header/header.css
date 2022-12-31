@@ -46,13 +46,13 @@
   }
   .header-left-logo {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     gap: 3px;
     text-align: center;
     margin-left: 6rem;
   }
   .title {
-    width: fit-content;
-    font-size: 1.2rem;
+    width: 10rem;
+    font-size: 1rem;
   }
 }
